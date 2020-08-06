@@ -1,12 +1,11 @@
 class Book
-  attr_accessor :author, :page_count, :genre
-  attr_reader :title
+  attr_accessor :author, :page_count
+  attr_reader :title, :genre
   GENRES = []
-  def initialize(title, author, genre, page_count)
+  def initialize(title)
     @title = title
     @genre = genre
     @author = author
-    GENRES.push(self.genre)
   end
 
   def turn_page
