@@ -6,7 +6,10 @@ class Book
     @title = title
   end
 
-  
+  def genre=(genre)
+    @genre = genre
+    GENRES.push(genre) 
+  end
 
 
   def turn_page
