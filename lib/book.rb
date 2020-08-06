@@ -6,7 +6,7 @@ class Book
     @title = title
     @genre = genre
     @author = author
-    GENRES.push(self.title)
+    GENRES.push(self.genre)
   end
 
   def turn_page
