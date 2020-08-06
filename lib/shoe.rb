@@ -12,6 +12,7 @@ class Shoe
   end
 
   def self.brands
+    BRANDS = []
 
 
 end
