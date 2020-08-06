@@ -4,6 +4,8 @@ class Book
   GENRES = []
   def initialize(title)
     @title = title
+    @genre = genre
+    @author = author
     GENRES.push(self.title)
   end
 
