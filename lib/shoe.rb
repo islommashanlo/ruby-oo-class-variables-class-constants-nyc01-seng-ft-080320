@@ -14,4 +14,5 @@ class Shoe
   def self.brands
     BRANDS = []
     BRANDS.push(@brand)
+  end
 end
