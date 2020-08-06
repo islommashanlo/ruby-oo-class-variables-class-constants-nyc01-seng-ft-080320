@@ -12,6 +12,6 @@ class Shoe
   end
 
   def self.brands
-    BRANDS.push(@brand)
+    BRANDS.push(@brand).size
   end
 end
